@@ -18,26 +18,28 @@ The amount sent per wallet can be set via **command-line argument**.
 2. Prepare your input files:
 
    deployerpriv.txt → contains one private key (sender)
-
    privkeys.txt → contains multiple private keys (recipients)
-
+   
    Example deployerpriv.txt:
    0xabcdef1234567890...
-
+   
    Example privkeys.txt:
    0x123abc...
    0x456def...
    0x789ghi...
 
 
+
 3. Run the script with the desired amount per transfer:
    # Default: 1.0 KAIA per wallet
+   ```bash
    node otm.js
 
    # Example: 25.5 KAIA per wallet
+   ```bash
    node otm.js 25.5
 
-   📌 Example Output
+## 📌 Example Output
    🚀 Sending KAIA to 3 recipient wallet(s)...
    💰 Deployer balance: 200 KAIA
    📦 Amount per transfer set to: 25.5 KAIA
@@ -47,7 +49,7 @@ The amount sent per wallet can be set via **command-line argument**.
    🏁 All transactions completed!
 
 
-⚠️ Notes
+⚠️ ## Notes
 
 Ensure the deployer wallet has enough KAIA to cover all transfers plus gas fees.
 
