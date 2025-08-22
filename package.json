@@ -1,0 +1,23 @@
+{
+  "name": "kaia-multi-sender",
+  "version": "1.0.0",
+  "description": "script for distributing KAIA from one deployer wallet to multiple recipient wallets.",
+  "main": "otm.js",
+  "scripts": {
+    "start": "node otm.js"
+  },
+  "keywords": [
+    "kaia",
+    "klaytn",
+    "caver-js",
+    "blockchain",
+    "multi-sender",
+    "automation"
+  ],
+  "author": "Rifachnia",
+  "license": "MIT",
+  "dependencies": {
+    "caver-js": "^1.11.1"
+  },
+  "type": "module"
+}
