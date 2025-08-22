@@ -33,9 +33,9 @@ The amount sent per wallet can be set via **command-line argument**.
 3. Run the script with the desired amount per transfer:
    # Default: 1.0 KAIA per wallet
    ```bash
-   node otm.js```
+   node otm.js
 
-   # Example: 25.5 KAIA per wallet
+# Example: 25.5 KAIA per wallet
    ```bash
    node otm.js 25.5
 
