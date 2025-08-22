@@ -39,14 +39,6 @@ The amount sent per wallet can be set via **command-line argument**.
    ```bash
    node otm.js 25.5
 
-## 📌 Example Output
-   🚀 Sending KAIA to 3 recipient wallet(s)...
-   💰 Deployer balance: 200 KAIA
-   📦 Amount per transfer set to: 25.5 KAIA
-   ✅ [1] 25.5 KAIA sent to 0xabc...123 | TX Hash: 0x9f8e...
-   ✅ [2] 25.5 KAIA sent to 0xdef...456 | TX Hash: 0xabcd...
-   ✅ [3] 25.5 KAIA sent to 0xghi...789 | TX Hash: 0xef12...
-   🏁 All transactions completed!
 
 
 ⚠️ ## Notes
